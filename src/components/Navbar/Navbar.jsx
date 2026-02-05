@@ -1,7 +1,10 @@
 import React from "react";
 import { IoMdMenu } from "react-icons/io";
 import { motion } from "framer-motion";
-//import Contact from "../../pages/contact";
+// import Contact from "../../pages/contact";
+import { Link } from "react-router-dom";
+
+
 
 const NavbarMenu = [
   {
@@ -12,7 +15,8 @@ const NavbarMenu = [
   {
     id: 2,
     title: "Services",
-    link: "/Cards",
+     path: "#services",
+    isSection: true,
   },
   {
     id: 3,
@@ -24,11 +28,11 @@ const NavbarMenu = [
     title: "Our Team",
     link: "#",
   },
-  // {
-  //   id: 5,
-  //   title: "Contact Us",
-  //   path: "/contact",
-  // },
+   {
+     id: 5,
+    title: "Contact Us",
+    path: "/contact",
+   },
 ];
 const Navbar = () => {
   return (

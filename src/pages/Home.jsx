@@ -25,7 +25,9 @@ const Home = () => {
  >
    <Hero />
  </UpdateFollower>
- <Services />
+<section id="services">
+        <Services />
+      </section>
  {/* <Banner /> */}
  <Subscribe />
   <Banner2 /> 

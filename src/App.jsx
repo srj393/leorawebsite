@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar/Navbar"
 
 
 
+
 const App = () => {
   return (
   
@@ -18,6 +19,8 @@ const App = () => {
         <Route path="/" element={<Home />} / > 
      
         {/* <Route path="/contact" element={<Contact />} / > */}
+   
+          
        
        
       </Routes>
