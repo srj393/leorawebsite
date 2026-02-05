@@ -1,6 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import botox from "../../assets/botox.png";
+import nailart from "../../assets/nailart.png";
+import panchakarma from "../../assets/panchakarma.png";
+import iv from "../../assets/iv.png";
+import hydra from "../../assets/hydra.png";
+import acne from "../../assets/acne.png";
+import lipreduction from "../../assets/lipreduction.png";
+import hairstyle from "../../assets/hairstyle.png";
 
 // Define the slide animation using framer-motion
 const SlideLeft = (delay) => {
@@ -25,84 +33,77 @@ const SlideLeft = (delay) => {
 const CardsData = [
   {
     id: 1,
-    title: "Beauty",
+    title: "Botox and Filler injection",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
-    image:
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    image: botox,
+      
     link: "#",
     delay: 0.2,
   },
   {
     id: 2,
-    title: "Beyond Builder",
+    title: "Acne/Scar Treatment",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
-    image:
-      "https://images.unsplash.com/photo-1494145904049-0dca59b4bbad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
-    link: "#",
+    image:acne,
+    link: "",
     delay: 0.3,
   },
   {
     id: 3,
-    title: "Shooting Star",
+    title: "Nail Art",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
-    image:
-      "https://images.unsplash.com/photo-1502675135487-e971002a6adb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
-    link: "/contact",
+    image: nailart,
+    link: "",
     delay: 0.4,
   },
   {
     id: 4,
-    title: "Shining Star",
+    title: "Panchkarma",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
-    image:
-      "https://images.unsplash.com/photo-1502675135487-e971002a6adb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
-    link: "/contact",
+    image: panchakarma,
+    link: "",
     delay: 0.5,
   },
   {
     id: 5,
-    title: "Shining Star",
+    title: "Lip Augmentation",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
-    image:
-      "https://images.unsplash.com/photo-1502675135487-e971002a6adb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
-    link: "/contact",
+    image: lipreduction,
+    link: '',
     delay: 0.5,
   },
   {
-    id: 4,
-    title: "Shining Star",
+    id: 6,
+    title: "Hair styling",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
-    image:
-      "https://images.unsplash.com/photo-1502675135487-e971002a6adb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
-    link: "/contact",
+    image: hairstyle,
+    link: "",
     delay: 0.5,
   },
   {
-    id: 4,
-    title: "Shining Star",
+    id: 7,
+    title: "IV Drip Therapy",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
-    image:
-      "https://images.unsplash.com/photo-1502675135487-e971002a6adb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
-    link: "/contact",
+    image: iv,
+    link: "",
     delay: 0.5,
   },
   {
-    id: 4,
-    title: "Shining Star",
+    id: 8,
+    title: "Hydra Facial Treatment",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.",
-    image:
-      "https://images.unsplash.com/photo-1502675135487-e971002a6adb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
-    link: "/contact",
+    image: hydra,
+    link: "",
     delay: 0.5,
-  },
+  },  
 ];
 
 const Cards = () => {

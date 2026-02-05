@@ -12,7 +12,7 @@ const NavbarMenu = [
   {
     id: 2,
     title: "Services",
-    link: "#",
+    link: "/Cards",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const NavbarMenu = [
 ];
 const Navbar = () => {
   return (
-    <nav className="relative z-20">
+    <nav className="relative z-20 bg-salate-50">
       <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -56,7 +56,7 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-            <button className="primary-btn">Sign In</button>
+            {/* <button className="primary-btn">Sign In</button> */}
           </ul>
         </div>
         {/* Mobile Hamburger menu section */}
