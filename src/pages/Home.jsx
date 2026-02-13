@@ -25,11 +25,12 @@ const Home = () => {
  >
    <Hero />
  </UpdateFollower>
+ <Subscribe />
 <section id="services">
         <Services />
       </section>
  {/* <Banner /> */}
- <Subscribe />
+ 
   <Banner2 /> 
  <Footer />
 

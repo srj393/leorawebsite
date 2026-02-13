@@ -12,7 +12,7 @@ const bgStyle = {
 
 const Subscribe = () => {
   return (
-    <section className="bg-[#f7f7f7]">
+    <section className="bg-[url('/src/assets/bg1.png')] bg-no-repeat bg-cover ">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -27,7 +27,7 @@ const Subscribe = () => {
         >
           <div className="text-center space-y-4 lg:max-w-[430px] mx-auto">
             <h1 className="text-4xl font-bold !leading-snug">
-              Lakhs of customers joined us
+              Our Presence in the citys
             </h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -37,7 +37,7 @@ const Subscribe = () => {
               href=""
               className="primary-btn !mt-8 inline-flex items-center gap-4 group"
             >
-              Subscribe Now
+              Connect Now
               <FaBell className="group-hover:animate-bounce group-hover:text-lg duration-200" />
             </a>
           </div>

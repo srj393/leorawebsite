@@ -38,7 +38,7 @@ const headphoneData = [
     title: "Ayurvedic treatment",
     subtitle:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae iusto minima ad ut id eos iusto minima ad ut id eos ad ut id eos",
-    bgColor: "#cf4f00",
+    bgColor: "#5f4c4c",
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ const headphoneData = [
     title: "skin hair and body care",
     subtitle:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae iusto minima ad ut id eos iusto minima ad ut id eos ad ut id eos",
-    bgColor: "#ac1a00",
+    bgColor: "#c5aa6a",
   }, 
 ];
 
